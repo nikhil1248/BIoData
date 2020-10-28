@@ -1,0 +1,152 @@
+@media only screen  and (max-width:1024px){
+    .card img {
+        width:170px;
+    }
+    .header-text {
+        left: 40%;
+    }
+}
+@media only screen  and (max-width:768px){
+    html,body{
+        font-size: 16px;
+    }
+    .row{
+        width:95%;
+    }
+    .web-nav-bar {
+        margin-right: 45px;
+    }
+    .header-text {
+        left: 42%;
+    }
+    .box{
+        height: 200px;
+    }
+    .box img{
+        height:200px;
+    }
+    .card img {
+        width:150px;
+    }
+    .label-tab{
+        width: 24.3%;
+        padding: 15px 6px;
+    }
+    .card .contact {
+        margin-left: 2px;
+    }
+    .contact {
+        width: 100%;
+    }
+}
+@media only screen  and (max-width:427px){
+    html,body{
+        font-size: 15px;
+    }
+    .logo {
+        width: 28px;
+        height: 28px;
+        border: 1.5px solid white;
+        margin: 15px 20px;
+    }
+    .row{
+        width:100%;
+    }
+    .web-nav-bar {
+        margin-right: 10px;
+        margin-top: 26px;
+
+    }
+    .heading-size {
+        font-size: 225%;
+    }
+    .header-text {
+        left: 11%;
+        width: auto;
+        top: 45%;
+        transform: translate(0);
+    }
+    h1{
+        font-size: 175%;
+    }
+    .box{
+        height: 200px;
+        width: 45%;
+        margin:6% 2%;
+    }
+    .box:nth-child(3){
+        margin:4% 2%;
+    }
+    .box:nth-child(6){
+        margin:4% 2%;
+    }
+    .box img{
+        height:200px;
+    }
+    .card img {
+        width:150px;
+    }
+    .skills {
+        margin: 2%;
+    }
+    .navigation-tabs {
+        width: 100%;
+    }
+    .container {
+        width: 100%;
+    }
+    .card{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .form-box {
+        position: relative;
+        background-color: rgba(255, 255, 255, 0.80);
+        top: 0;
+        right:0;
+        width: 100%;
+        margin:2%;
+    }
+    input[type=text], input[type=email], input[type=number], select, textarea {
+        width: 90%;
+    }
+    .map-box{
+        height: auto;
+    }
+    .label-tab{
+        width: 24.3%;
+        padding: 15px 6px;
+    }
+    .contact {
+        width: 100%;
+    }
+    .blog-width{
+        width: 20%;
+        float: left;
+    }
+    .social-width{
+        width: 80%;
+        float: left;
+    }
+    .foot-nav-link {
+        margin-left: 20px
+    }
+}
+
+@media only screen  and (max-width:390px){
+    .web-nav-bar {
+        margin-top: 16px;
+    }
+    .web-nav-bar a:link, .web-nav-bar a:visited {
+        margin-right: 10px;
+    }
+    .logo {
+        width: 25px;
+        height: 25px;
+    }
+    .header-text {
+        left: 9%;
+        width: auto;
+        top: 40%;
+    }
+}
